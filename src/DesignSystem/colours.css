@@ -1,0 +1,45 @@
+:root {
+  /*Purple-scale*/
+  --purple-900: hsl(242, 89%, 72%);
+  --purple-800: hsl(243, 89%, 75%);
+  --purple-700: hsl(243, 89%, 78%);
+  --purple-600: hsl(244, 89%, 82%);
+  --purple-500: hsl(245, 90%, 85%);
+  --purple-400: hsl(245, 88%, 87%);
+  --purple-300: hsl(246, 90%, 89%);
+  --purple-200: hsl(247, 88%, 90%);
+  --purple-100: hsl(245, 89%, 93%);
+
+  /*Yellow-scale*/
+  --yellow-900: hsl(43, 92%, 74%);
+  --yellow-800: hsl(43, 93%, 77%);
+  --yellow-700: hsl(43, 93%, 79%);
+  --yellow-600: hsl(42, 94%, 81%);
+  --yellow-500: hsl(43, 93%, 83%);
+  --yellow-400: hsl(43, 92%, 85%);
+  --yellow-300: hsl(42, 94%, 87%);
+  --yellow-200: hsl(43, 93%, 89%);
+  --yellow-100: hsl(42, 95%, 92%);
+
+  /*Blue-scale*/
+  --blue-900: hsl(232, 69%, 26%);
+  --blue-800: hsl(230, 65%, 30%);
+  --blue-700: hsl(229, 62%, 33%);
+  --blue-600: hsl(228, 60%, 36%);
+  --blue-500: hsl(227, 58%, 40%);
+  --blue-400: hsl(226, 57%, 43%);
+  --blue-300: hsl(226, 55%, 47%);
+  --blue-200: hsl(225, 54%, 50%);
+  --blue-100: hsl(224, 60%, 54%);
+
+  /*lightgrey-scale*/
+  --light-grey-900: hsl(0, 0%, 72%);
+  --light-grey-800: hsl(0, 0%, 74%);
+  --light-grey-700: hsl(0, 0%, 76%);
+  --light-grey-600: hsl(0, 0%, 79%);
+  --light-grey-500: hsl(0, 0%, 81%);
+  --light-grey-400: hsl(0, 0%, 84%);
+  --light-grey-300: hsl(0, 0%, 86%);
+  --light-grey-200: hsl(0, 0%, 88%);
+  --light-grey-100: hsl(0, 0%, 91%);
+}

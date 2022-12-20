@@ -1,0 +1,35 @@
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /*important to stay % and not use vh*/
+  height: 100%;
+  width: 100%;
+  background-color: var(--purple-400);
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.purple-box {
+  height: 100%;
+  background-color: var(--purple-900);
+  grid-row-start: 2;
+  grid-column-start: 2;
+  box-shadow: 6px 4px var(--light-grey-900);
+  /*styling concerning its children*/
+  display: grid;
+}
+
+.white-box {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  /*styling concerning its children*/
+  display: grid;
+}

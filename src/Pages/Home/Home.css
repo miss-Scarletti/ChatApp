@@ -1,0 +1,130 @@
+.home-page {
+  height: 100vh;
+  /*styling concerning its children*/
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 10% 80% 10%;
+}
+
+.home-box {
+  /*styling concerning its children*/
+  grid-template-columns: 10% 35% 10% 35% 10%;
+  grid-template-rows: 10% 80% 10%;
+}
+
+.user-box {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  /*styling concerning its children*/
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 0% 100% 0%;
+  grid-template-rows: 5% 40% 5% 25% 5% 15% 5%;
+  border-radius: 5px;
+}
+
+.user-image {
+  /*styling concerning its children*/
+  display: grid;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.circle {
+  border-radius: 50%;
+  align-self: center;
+  justify-self: center;
+  background-color: var(--light-grey-100);
+  width: 40%;
+}
+
+.user-info {
+  grid-row-start: 4;
+  grid-column-start: 2;
+  /*styling concerning its children*/
+  display: grid;
+  grid-template-columns: 55% 2% 55%;
+}
+
+.user-info-detail {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  grid-column-start: 1;
+  font-size: 22px;
+  font-weight: 500;
+  white-space: nowrap;
+  font-weight: 200;
+}
+
+.user-info-placeholder {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  max-width: 78%;
+  grid-column-start: 3;
+  font-size: 22px;
+}
+
+.user-buttons {
+  grid-column-start: 2;
+  grid-row-start: 6;
+  /*styling concerning its children*/
+  display: flex;
+  justify-content: space-around;
+}
+
+.chat-overview {
+  grid-column-start: 4;
+  grid-row-start: 2;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  scrollbar-color: var(--blue-900) transparent;
+  scrollbar-width: thin;
+  /*styling concerning its children*/
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto 10%;
+  row-gap: 10px;
+  background-color: var(--purple-600);
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.new-chats {
+  grid-column-start: 4;
+  grid-row-start: 3;
+  /*styling concerning its children*/
+  display: grid;
+  grid-template-columns: auto 30% auto;
+}
+
+.no-chat {
+  text-align: center;
+  margin-top: 50%;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.loading-overlay {
+  width: 200vh;
+  height: 50vw;
+  background-color: var(--light-grey-100);
+  opacity: 0.5;
+  position: absolute;
+  z-index: 3;
+  justify-content: center;
+  align-content: center;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  opacity: 1;
+}

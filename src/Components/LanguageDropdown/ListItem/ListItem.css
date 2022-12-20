@@ -1,0 +1,18 @@
+.item {
+  background-color: var(--light-grey-100);
+  font-size: 90%;
+  padding: 1%;
+  color: var(--blue-900);
+  list-style-type: none;
+  white-space: nowrap;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.delete {
+  margin-left: 8px;
+}
+
+.delete:hover {
+  cursor: pointer;
+}

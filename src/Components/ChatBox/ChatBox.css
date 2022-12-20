@@ -1,0 +1,53 @@
+.chat-box{
+    background-color: var(--purple-900);
+    display: grid;
+    grid-template-rows: 80% 20%;
+    box-shadow: 6px 4px var(--light-grey-900);
+}
+.threat{
+    height: inherit;
+    overflow-y: scroll;
+    scrollbar-color: var(--blue-900) transparent;
+    scrollbar-width: thin;
+}
+
+.message-list {
+    display: grid;
+}
+.message-list > .message_sent{
+    justify-self: right;
+    max-width: 75%;
+}
+.message-list > .message_received{
+    justify-self: left;
+    max-width: 75%;
+}
+
+.sending-messages{
+    grid-row-start: 2;
+    padding: 1%;
+    /* styling for children */
+    display: grid;
+    grid-template-columns: 60% 20% 40%;
+    grid-template-rows: 50% 50%;
+}
+.cat-icon{
+    width:30%;
+}
+.input-form{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.input-area{
+   width: 100%;
+   height: 100%;
+   overflow-y: scroll;
+   resize: none;
+}
+
+.server-info{
+    grid-column-start: 2;
+    font-size: 70%;
+    margin: 0;
+    padding: 0% 0% 0% 5%;
+}

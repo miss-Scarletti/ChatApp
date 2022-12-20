@@ -1,0 +1,43 @@
+.chat-page {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 10% 20% 60% 10%;
+  grid-template-rows: 5% 8% 2% 80% 5%;
+  box-shadow: inset;
+}
+
+.chat-sidebar {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+.chat-box {
+  grid-column-start: 3;
+  grid-row-start: 4;
+}
+
+.home-icon {
+  cursor: pointer;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  width: 25%;
+}
+
+.chat-partner {
+  display: flex;
+  flex-direction: row;
+  font-size: larger;
+  align-items: center;
+  grid-row-start: 2;
+  grid-column-start: 3;
+  vertical-align: bottom;
+}
+
+.partner-pic {
+  width: 7%;
+}
+
+.partner-name {
+  margin-right: 1%;
+  font-weight: bold;
+}

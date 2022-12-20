@@ -1,0 +1,29 @@
+.message {
+  margin: 10px;
+}
+
+.content[type="received"] {
+  background-color: var(--purple-100);
+  border-radius: 50px 50px 50px 7px;
+}
+
+.content[type="sent"] {
+  background-color: white;
+  border-radius: 50px 50px 7px 50px;
+}
+
+.content {
+  padding: 20px;
+  width: fit-content;
+  word-break: break-word;
+}
+
+.author {
+  color: white;
+}
+
+.timestamp {
+  color: white;
+  text-align: right;
+  font-size: small;
+}

@@ -1,0 +1,17 @@
+.chat-list-item-box:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.delete-chat-button {
+  display: flex;
+  margin-left: auto;
+  border-radius: 5px;
+  border: solid black 1px;
+}
+.delete-chat {
+  margin-top: 5%;
+}
+.delete-chat-button:hover {
+  cursor: pointer;
+}

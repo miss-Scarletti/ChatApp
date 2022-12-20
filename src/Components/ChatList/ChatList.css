@@ -1,0 +1,38 @@
+.chat-list {
+  max-height: 60vh;
+}
+
+.chat-list-item-box {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px var(--light-grey-100);
+  /*styling concerning its children*/
+  display: flex;
+  flex-direction: row;
+}
+
+.chat-list-item-info {
+  padding: 5%;
+}
+
+.chat-list-item-info-name {
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.chat-list-item-info-language {
+  margin-top: 5px;
+  font-size: 28px;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.chat-list-item-img-box {
+  padding: 5%;
+  max-width: 100px;
+}
+
+.chat-list-item-img {
+  width: 80px;
+  height: 80px;
+}

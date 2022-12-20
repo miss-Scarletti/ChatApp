@@ -1,0 +1,95 @@
+.sign-in-page {
+  height: 100vh;
+  /*styling concerning its children*/
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 5% 90% 5%;
+}
+
+.sign-in-box {
+  /*styling concerning its children*/
+  /*
+    figuring out grid
+        top             20%
+        logo            10%
+        headerText      15%
+        Inputs          10%
+            username
+            password
+        Forgot           5%
+        logIn           10%
+        signUp          10%
+        bottom          20%
+    */
+  grid-template-rows: 20% 10% 15% 10% 5% 8% 6% 26%;
+  align-items: center;
+  justify-items: center;
+  row-gap: 2%;
+}
+
+.header-logo {
+  grid-row-start: 2;
+  width: calc(0.3 * 20vw);
+  height: auto;
+  margin-bottom: 10%;
+}
+.header-welcome {
+  grid-row-start: 3;
+  font-size: calc(0.4 * 15vw);
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-block: 0;
+  padding: 0;
+  margin-bottom: 10%;
+}
+
+.inputs {
+  grid-row-start: 4;
+  /*styling concerning its children*/
+  display: grid;
+  grid-template-rows: 45% 45%;
+  grid-row-gap: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+}
+
+.input-field {
+  border-radius: 2px;
+  width: calc(0.4 * 50vw);
+  height: inherit;
+  margin-left: auto;
+}
+
+.input-logo {
+  width: 30px;
+  margin-right: auto;
+}
+
+.forgot-pass {
+  grid-row-start: 5;
+  margin-top: 3%;
+  align-self: center;
+  justify-self: center;
+  text-decoration: underline;
+}
+.forgot-pass:hover {
+  cursor: pointer;
+}
+
+.login-button {
+  grid-row-start: 6;
+  /*styling concerning its children*/
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-button {
+  grid-row-start: 7;
+  /*styling concerning its children*/
+  align-items: center;
+  justify-content: center;
+}
